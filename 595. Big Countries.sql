@@ -1,8 +1,10 @@
--- Select three columns: name, population, and area from the World table
-SELECT name, population, area
-FROM World
--- Filter rows where either:
--- 1. The area is 3 million square km or larger
--- OR
--- 2. The population is 25 million or more
-WHERE area >= 3000000 OR population >= 25000000;
+-- Goal: Identify countries that are large by area or population
+-- Tables: Querying the World table for geographic/demographic data
+-- Criteria: Countries meeting at least one of two "big country" conditions
+
+SELECT name,         -- Country name
+       population,  -- Population count
+       area         -- Land area in square kilometers
+FROM World          -- From the World table
+WHERE area >= 3000000            -- Condition 1: Area ≥ 3 million sq km (like India)
+   OR population >= 25000000;    -- Condition 2: Population ≥ 25 million (like Australia)
