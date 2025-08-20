@@ -1,4 +1,3 @@
-# Write your MySQL query statement below
 SELECT 
     E1.employee_id,
     E1.name,
