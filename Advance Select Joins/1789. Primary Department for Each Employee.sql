@@ -9,3 +9,5 @@ WHERE primary_flag = 'Y'
     GROUP BY employee_id
     HAVING COUNT(*) = 1
     );
+
+adding more content to solve and work acc to onditions 
