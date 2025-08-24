@@ -10,4 +10,5 @@ WHERE primary_flag = 'Y'
     HAVING COUNT(*) = 1
     );
 
-adding more content to solve and work acc to onditions 
+-- adding more content to solve and work acc to onditions 
+-- abse krunga pkka
